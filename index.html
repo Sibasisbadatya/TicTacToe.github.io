@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic ac Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+
+<body>
+    <div class="heading">
+        TIC TAC TOE :
+    </div>
+    <div class="interface">
+        <div class="line"></div>
+        <div class="game">
+            <div class="d1 bl-0 bt-0"><span class="s1"> </span></div>
+            <div class="d1 bt-0"><span class="s1"> </span></div>
+            <div class="d1 bt-0 br-0"><span class="s1"> </span></div>
+            <div class="d1 bl-0"><span class="s1"> </span></div>
+            <div class="d1"><span class="s1"> </span></div>
+            <div class="d1 br-0"><span class="s1"> </span></div>
+            <div class="d1 bb-0 bl-0"><span class="s1"> </span></div>
+            <div class="d1 bb-0"><span class="s1"> </span></div>
+            <div class="d1 bb-0 br-0"><span class="s1"> </span></div>
+        </div>
+        <div class="info">
+            <div class="pa">
+                <p class="p"></p>
+            </div>
+
+            <div class="winner">
+                <img src="winner.gif " id="image">
+            </div>
+
+            <div class="player">
+                <input type="button" value="Turn for x" class="xy">
+            </div>
+
+            <div class="reset">
+                <input type="button" value="play again" id="reset" onclick="plag()">
+            </div>
+
+        </div>
+
+    </div>
+    <script src="ttt.js"></script>
+</body>
+
+</html>
